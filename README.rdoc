@@ -1,0 +1,3 @@
+== Tip Calculator for the Apple Watch
+
+App functions as a basic tip calculator for the Apple watch, with the ability to split the bill!
