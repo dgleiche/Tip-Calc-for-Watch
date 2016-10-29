@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC80EEF21B45A2BB00E31BB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80EEF11B45A2BB00E31BB4 /* AppDelegate.swift */; };
+		FC80EEF41B45A2BB00E31BB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80EEF31B45A2BB00E31BB4 /* ViewController.swift */; };
+		FC80EEF71B45A2BB00E31BB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC80EEF51B45A2BB00E31BB4 /* Main.storyboard */; };
+		FC80EEF91B45A2BB00E31BB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC80EEF81B45A2BB00E31BB4 /* Images.xcassets */; };
+		FC80EEFC1B45A2BB00E31BB4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC80EEFA1B45A2BB00E31BB4 /* LaunchScreen.xib */; };
+		FC80EF081B45A2BB00E31BB4 /* Tip_Calc_for_WatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80EF071B45A2BB00E31BB4 /* Tip_Calc_for_WatchTests.swift */; };
+		FC80EF1A1B45A30200E31BB4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80EF191B45A30200E31BB4 /* InterfaceController.swift */; };
+		FC80EF1C1B45A30200E31BB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC80EF1B1B45A30200E31BB4 /* Images.xcassets */; };
+		FC80EF201B45A30200E31BB4 /* Tip Calc for Watch WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = FC80EF1F1B45A30200E31BB4 /* Tip Calc for Watch WatchKit App.app */; };
+		FC80EF281B45A30200E31BB4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC80EF261B45A30200E31BB4 /* Interface.storyboard */; };
+		FC80EF2D1B45A30200E31BB4 /* Tip Calc for Watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FC80EF151B45A30200E31BB4 /* Tip Calc for Watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FC80EF3A1B486DC400E31BB4 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC80EF391B486DC400E31BB4 /* FontAwesome.ttf */; };
+		FC80EF3B1B486DC400E31BB4 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC80EF391B486DC400E31BB4 /* FontAwesome.ttf */; };
+		FCC5B35A1B48F15E00586540 /* BillInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC5B3591B48F15E00586540 /* BillInterfaceController.swift */; };
+		FCC5B35C1B49B62B00586540 /* TipInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC5B35B1B49B62B00586540 /* TipInterfaceController.swift */; };
+		FCC5B35E1B49BD0600586540 /* PeopleInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC5B35D1B49BD0600586540 /* PeopleInterfaceController.swift */; };
+		FCDC06E81B5A12F400C98425 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06D61B5A12F400C98425 /* Icon-60.png */; };
+		FCDC06E91B5A12F400C98425 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06D71B5A12F400C98425 /* Icon-60@2x.png */; };
+		FCDC06EA1B5A12F400C98425 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06D81B5A12F400C98425 /* Icon-60@3x.png */; };
+		FCDC06EB1B5A12F400C98425 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06D91B5A12F400C98425 /* Icon-72.png */; };
+		FCDC06EC1B5A12F400C98425 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06DA1B5A12F400C98425 /* Icon-72@2x.png */; };
+		FCDC06ED1B5A12F400C98425 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06DB1B5A12F400C98425 /* Icon-76.png */; };
+		FCDC06EE1B5A12F400C98425 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06DC1B5A12F400C98425 /* Icon-76@2x.png */; };
+		FCDC06EF1B5A12F400C98425 /* Icon-Small-40.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06DD1B5A12F400C98425 /* Icon-Small-40.png */; };
+		FCDC06F01B5A12F400C98425 /* Icon-Small-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06DE1B5A12F400C98425 /* Icon-Small-40@2x.png */; };
+		FCDC06F11B5A12F400C98425 /* Icon-Small-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06DF1B5A12F400C98425 /* Icon-Small-40@3x.png */; };
+		FCDC06F21B5A12F400C98425 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06E01B5A12F400C98425 /* Icon-Small-50.png */; };
+		FCDC06F31B5A12F400C98425 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06E11B5A12F400C98425 /* Icon-Small-50@2x.png */; };
+		FCDC06F41B5A12F400C98425 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06E21B5A12F400C98425 /* Icon-Small.png */; };
+		FCDC06F51B5A12F400C98425 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06E31B5A12F400C98425 /* Icon-Small@2x.png */; };
+		FCDC06F61B5A12F400C98425 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06E41B5A12F400C98425 /* Icon-Small@3x.png */; };
+		FCDC06F71B5A12F400C98425 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06E51B5A12F400C98425 /* Icon.png */; };
+		FCDC06F81B5A12F400C98425 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06E61B5A12F400C98425 /* Icon@2x.png */; };
+		FCDC06F91B5A12F400C98425 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06E71B5A12F400C98425 /* iTunesArtwork@2x.png */; };
+		FCDC07031B5A15B200C98425 /* 172x172.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06FB1B5A15B200C98425 /* 172x172.png */; };
+		FCDC07041B5A15B200C98425 /* 172x172.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06FB1B5A15B200C98425 /* 172x172.png */; };
+		FCDC07051B5A15B200C98425 /* 196x196.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06FC1B5A15B200C98425 /* 196x196.png */; };
+		FCDC07061B5A15B200C98425 /* 196x196.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06FC1B5A15B200C98425 /* 196x196.png */; };
+		FCDC07071B5A15B200C98425 /* 29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06FD1B5A15B200C98425 /* 29x29@2x.png */; };
+		FCDC07081B5A15B200C98425 /* 29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06FD1B5A15B200C98425 /* 29x29@2x.png */; };
+		FCDC07091B5A15B200C98425 /* 29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06FE1B5A15B200C98425 /* 29x29@3x.png */; };
+		FCDC070A1B5A15B200C98425 /* 29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06FE1B5A15B200C98425 /* 29x29@3x.png */; };
+		FCDC070B1B5A15B200C98425 /* 48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06FF1B5A15B200C98425 /* 48x48.png */; };
+		FCDC070C1B5A15B200C98425 /* 48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC06FF1B5A15B200C98425 /* 48x48.png */; };
+		FCDC070D1B5A15B200C98425 /* 55x55.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC07001B5A15B200C98425 /* 55x55.png */; };
+		FCDC070E1B5A15B200C98425 /* 55x55.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC07001B5A15B200C98425 /* 55x55.png */; };
+		FCDC070F1B5A15B200C98425 /* 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC07011B5A15B200C98425 /* 80x80.png */; };
+		FCDC07101B5A15B200C98425 /* 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC07011B5A15B200C98425 /* 80x80.png */; };
+		FCDC07111B5A15B200C98425 /* 88x88.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC07021B5A15B200C98425 /* 88x88.png */; };
+		FCDC07121B5A15B200C98425 /* 88x88.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC07021B5A15B200C98425 /* 88x88.png */; };
+		FCDC07141B5A165700C98425 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCDC07131B5A165700C98425 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC80EF021B45A2BB00E31BB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC80EEE41B45A2BB00E31BB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC80EEEB1B45A2BB00E31BB4;
+			remoteInfo = "Tip Calc for Watch";
+		};
+		FC80EF211B45A30200E31BB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC80EEE41B45A2BB00E31BB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC80EF1E1B45A30200E31BB4;
+			remoteInfo = "Tip Calc for Watch WatchKit App";
+		};
+		FC80EF2B1B45A30200E31BB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC80EEE41B45A2BB00E31BB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC80EF141B45A30200E31BB4;
+			remoteInfo = "Tip Calc for Watch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC80EF341B45A30200E31BB4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FC80EF2D1B45A30200E31BB4 /* Tip Calc for Watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FC80EEEC1B45A2BB00E31BB4 /* Tip Calc for Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip Calc for Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC80EEF01B45A2BB00E31BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC80EEF11B45A2BB00E31BB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC80EEF31B45A2BB00E31BB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC80EEF61B45A2BB00E31BB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC80EEF81B45A2BB00E31BB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC80EEFB1B45A2BB00E31BB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC80EF011B45A2BB00E31BB4 /* Tip Calc for WatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip Calc for WatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC80EF061B45A2BB00E31BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC80EF071B45A2BB00E31BB4 /* Tip_Calc_for_WatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_Calc_for_WatchTests.swift; sourceTree = "<group>"; };
+		FC80EF151B45A30200E31BB4 /* Tip Calc for Watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Tip Calc for Watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC80EF181B45A30200E31BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC80EF191B45A30200E31BB4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FC80EF1B1B45A30200E31BB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC80EF1F1B45A30200E31BB4 /* Tip Calc for Watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip Calc for Watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC80EF251B45A30200E31BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC80EF271B45A30200E31BB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FC80EF391B486DC400E31BB4 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		FCC5B3591B48F15E00586540 /* BillInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillInterfaceController.swift; sourceTree = "<group>"; };
+		FCC5B35B1B49B62B00586540 /* TipInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipInterfaceController.swift; sourceTree = "<group>"; };
+		FCC5B35D1B49BD0600586540 /* PeopleInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleInterfaceController.swift; sourceTree = "<group>"; };
+		FCDC06D61B5A12F400C98425 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		FCDC06D71B5A12F400C98425 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		FCDC06D81B5A12F400C98425 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		FCDC06D91B5A12F400C98425 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		FCDC06DA1B5A12F400C98425 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		FCDC06DB1B5A12F400C98425 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		FCDC06DC1B5A12F400C98425 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		FCDC06DD1B5A12F400C98425 /* Icon-Small-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-40.png"; sourceTree = "<group>"; };
+		FCDC06DE1B5A12F400C98425 /* Icon-Small-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-40@2x.png"; sourceTree = "<group>"; };
+		FCDC06DF1B5A12F400C98425 /* Icon-Small-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-40@3x.png"; sourceTree = "<group>"; };
+		FCDC06E01B5A12F400C98425 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		FCDC06E11B5A12F400C98425 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		FCDC06E21B5A12F400C98425 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		FCDC06E31B5A12F400C98425 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		FCDC06E41B5A12F400C98425 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		FCDC06E51B5A12F400C98425 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FCDC06E61B5A12F400C98425 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		FCDC06E71B5A12F400C98425 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		FCDC06FB1B5A15B200C98425 /* 172x172.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 172x172.png; sourceTree = "<group>"; };
+		FCDC06FC1B5A15B200C98425 /* 196x196.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 196x196.png; sourceTree = "<group>"; };
+		FCDC06FD1B5A15B200C98425 /* 29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "29x29@2x.png"; sourceTree = "<group>"; };
+		FCDC06FE1B5A15B200C98425 /* 29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "29x29@3x.png"; sourceTree = "<group>"; };
+		FCDC06FF1B5A15B200C98425 /* 48x48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 48x48.png; sourceTree = "<group>"; };
+		FCDC07001B5A15B200C98425 /* 55x55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 55x55.png; sourceTree = "<group>"; };
+		FCDC07011B5A15B200C98425 /* 80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80x80.png; sourceTree = "<group>"; };
+		FCDC07021B5A15B200C98425 /* 88x88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 88x88.png; sourceTree = "<group>"; };
+		FCDC07131B5A165700C98425 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC80EEE91B45A2BB00E31BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC80EEFE1B45A2BB00E31BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC80EF121B45A30200E31BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC80EEE31B45A2BB00E31BB4 = {
+			isa = PBXGroup;
+			children = (
+				FCDC06FA1B5A15B200C98425 /* Watch Icons */,
+				FCDC06D51B5A12F400C98425 /* Icons */,
+				FC80EF3C1B486E9900E31BB4 /* Font Awesome */,
+				FC80EEEE1B45A2BB00E31BB4 /* Tip Calc for Watch */,
+				FC80EF041B45A2BB00E31BB4 /* Tip Calc for WatchTests */,
+				FC80EF161B45A30200E31BB4 /* Tip Calc for Watch WatchKit Extension */,
+				FC80EF231B45A30200E31BB4 /* Tip Calc for Watch WatchKit App */,
+				FC80EEED1B45A2BB00E31BB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC80EEED1B45A2BB00E31BB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC80EEEC1B45A2BB00E31BB4 /* Tip Calc for Watch.app */,
+				FC80EF011B45A2BB00E31BB4 /* Tip Calc for WatchTests.xctest */,
+				FC80EF151B45A30200E31BB4 /* Tip Calc for Watch WatchKit Extension.appex */,
+				FC80EF1F1B45A30200E31BB4 /* Tip Calc for Watch WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC80EEEE1B45A2BB00E31BB4 /* Tip Calc for Watch */ = {
+			isa = PBXGroup;
+			children = (
+				FC80EEF11B45A2BB00E31BB4 /* AppDelegate.swift */,
+				FC80EEF31B45A2BB00E31BB4 /* ViewController.swift */,
+				FC80EEF51B45A2BB00E31BB4 /* Main.storyboard */,
+				FC80EEF81B45A2BB00E31BB4 /* Images.xcassets */,
+				FC80EEFA1B45A2BB00E31BB4 /* LaunchScreen.xib */,
+				FC80EEEF1B45A2BB00E31BB4 /* Supporting Files */,
+			);
+			path = "Tip Calc for Watch";
+			sourceTree = "<group>";
+		};
+		FC80EEEF1B45A2BB00E31BB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC80EEF01B45A2BB00E31BB4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC80EF041B45A2BB00E31BB4 /* Tip Calc for WatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC80EF071B45A2BB00E31BB4 /* Tip_Calc_for_WatchTests.swift */,
+				FC80EF051B45A2BB00E31BB4 /* Supporting Files */,
+			);
+			path = "Tip Calc for WatchTests";
+			sourceTree = "<group>";
+		};
+		FC80EF051B45A2BB00E31BB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC80EF061B45A2BB00E31BB4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC80EF161B45A30200E31BB4 /* Tip Calc for Watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FC80EF191B45A30200E31BB4 /* InterfaceController.swift */,
+				FCC5B3591B48F15E00586540 /* BillInterfaceController.swift */,
+				FCC5B35B1B49B62B00586540 /* TipInterfaceController.swift */,
+				FCC5B35D1B49BD0600586540 /* PeopleInterfaceController.swift */,
+				FC80EF1B1B45A30200E31BB4 /* Images.xcassets */,
+				FC80EF171B45A30200E31BB4 /* Supporting Files */,
+			);
+			path = "Tip Calc for Watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FC80EF171B45A30200E31BB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC80EF181B45A30200E31BB4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC80EF231B45A30200E31BB4 /* Tip Calc for Watch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FCDC07131B5A165700C98425 /* Images.xcassets */,
+				FC80EF261B45A30200E31BB4 /* Interface.storyboard */,
+				FC80EF241B45A30200E31BB4 /* Supporting Files */,
+			);
+			path = "Tip Calc for Watch WatchKit App";
+			sourceTree = "<group>";
+		};
+		FC80EF241B45A30200E31BB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC80EF351B486CA200E31BB4 /* Fonts */,
+				FC80EF251B45A30200E31BB4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC80EF351B486CA200E31BB4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FC80EF391B486DC400E31BB4 /* FontAwesome.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		FC80EF3C1B486E9900E31BB4 /* Font Awesome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Font Awesome";
+			sourceTree = "<group>";
+		};
+		FCDC06D51B5A12F400C98425 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				FCDC06D61B5A12F400C98425 /* Icon-60.png */,
+				FCDC06D71B5A12F400C98425 /* Icon-60@2x.png */,
+				FCDC06D81B5A12F400C98425 /* Icon-60@3x.png */,
+				FCDC06D91B5A12F400C98425 /* Icon-72.png */,
+				FCDC06DA1B5A12F400C98425 /* Icon-72@2x.png */,
+				FCDC06DB1B5A12F400C98425 /* Icon-76.png */,
+				FCDC06DC1B5A12F400C98425 /* Icon-76@2x.png */,
+				FCDC06DD1B5A12F400C98425 /* Icon-Small-40.png */,
+				FCDC06DE1B5A12F400C98425 /* Icon-Small-40@2x.png */,
+				FCDC06DF1B5A12F400C98425 /* Icon-Small-40@3x.png */,
+				FCDC06E01B5A12F400C98425 /* Icon-Small-50.png */,
+				FCDC06E11B5A12F400C98425 /* Icon-Small-50@2x.png */,
+				FCDC06E21B5A12F400C98425 /* Icon-Small.png */,
+				FCDC06E31B5A12F400C98425 /* Icon-Small@2x.png */,
+				FCDC06E41B5A12F400C98425 /* Icon-Small@3x.png */,
+				FCDC06E51B5A12F400C98425 /* Icon.png */,
+				FCDC06E61B5A12F400C98425 /* Icon@2x.png */,
+				FCDC06E71B5A12F400C98425 /* iTunesArtwork@2x.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		FCDC06FA1B5A15B200C98425 /* Watch Icons */ = {
+			isa = PBXGroup;
+			children = (
+				FCDC06FB1B5A15B200C98425 /* 172x172.png */,
+				FCDC06FC1B5A15B200C98425 /* 196x196.png */,
+				FCDC06FD1B5A15B200C98425 /* 29x29@2x.png */,
+				FCDC06FE1B5A15B200C98425 /* 29x29@3x.png */,
+				FCDC06FF1B5A15B200C98425 /* 48x48.png */,
+				FCDC07001B5A15B200C98425 /* 55x55.png */,
+				FCDC07011B5A15B200C98425 /* 80x80.png */,
+				FCDC07021B5A15B200C98425 /* 88x88.png */,
+			);
+			path = "Watch Icons";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC80EEEB1B45A2BB00E31BB4 /* Tip Calc for Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC80EF0B1B45A2BB00E31BB4 /* Build configuration list for PBXNativeTarget "Tip Calc for Watch" */;
+			buildPhases = (
+				FC80EEE81B45A2BB00E31BB4 /* Sources */,
+				FC80EEE91B45A2BB00E31BB4 /* Frameworks */,
+				FC80EEEA1B45A2BB00E31BB4 /* Resources */,
+				FC80EF341B45A30200E31BB4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC80EF2C1B45A30200E31BB4 /* PBXTargetDependency */,
+			);
+			name = "Tip Calc for Watch";
+			productName = "Tip Calc for Watch";
+			productReference = FC80EEEC1B45A2BB00E31BB4 /* Tip Calc for Watch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC80EF001B45A2BB00E31BB4 /* Tip Calc for WatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC80EF0E1B45A2BB00E31BB4 /* Build configuration list for PBXNativeTarget "Tip Calc for WatchTests" */;
+			buildPhases = (
+				FC80EEFD1B45A2BB00E31BB4 /* Sources */,
+				FC80EEFE1B45A2BB00E31BB4 /* Frameworks */,
+				FC80EEFF1B45A2BB00E31BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC80EF031B45A2BB00E31BB4 /* PBXTargetDependency */,
+			);
+			name = "Tip Calc for WatchTests";
+			productName = "Tip Calc for WatchTests";
+			productReference = FC80EF011B45A2BB00E31BB4 /* Tip Calc for WatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC80EF141B45A30200E31BB4 /* Tip Calc for Watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC80EF311B45A30200E31BB4 /* Build configuration list for PBXNativeTarget "Tip Calc for Watch WatchKit Extension" */;
+			buildPhases = (
+				FC80EF111B45A30200E31BB4 /* Sources */,
+				FC80EF121B45A30200E31BB4 /* Frameworks */,
+				FC80EF131B45A30200E31BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC80EF221B45A30200E31BB4 /* PBXTargetDependency */,
+			);
+			name = "Tip Calc for Watch WatchKit Extension";
+			productName = "Tip Calc for Watch WatchKit Extension";
+			productReference = FC80EF151B45A30200E31BB4 /* Tip Calc for Watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		FC80EF1E1B45A30200E31BB4 /* Tip Calc for Watch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC80EF2E1B45A30200E31BB4 /* Build configuration list for PBXNativeTarget "Tip Calc for Watch WatchKit App" */;
+			buildPhases = (
+				FC80EF1D1B45A30200E31BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tip Calc for Watch WatchKit App";
+			productName = "Tip Calc for Watch WatchKit App";
+			productReference = FC80EF1F1B45A30200E31BB4 /* Tip Calc for Watch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC80EEE41B45A2BB00E31BB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "DIG Productions";
+				TargetAttributes = {
+					FC80EEEB1B45A2BB00E31BB4 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = V4HC7Q253B;
+					};
+					FC80EF001B45A2BB00E31BB4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FC80EEEB1B45A2BB00E31BB4;
+					};
+					FC80EF141B45A30200E31BB4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FC80EF1E1B45A30200E31BB4 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = V4HC7Q253B;
+					};
+				};
+			};
+			buildConfigurationList = FC80EEE71B45A2BB00E31BB4 /* Build configuration list for PBXProject "Tip Calc for Watch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC80EEE31B45A2BB00E31BB4;
+			productRefGroup = FC80EEED1B45A2BB00E31BB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC80EEEB1B45A2BB00E31BB4 /* Tip Calc for Watch */,
+				FC80EF001B45A2BB00E31BB4 /* Tip Calc for WatchTests */,
+				FC80EF141B45A30200E31BB4 /* Tip Calc for Watch WatchKit Extension */,
+				FC80EF1E1B45A30200E31BB4 /* Tip Calc for Watch WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC80EEEA1B45A2BB00E31BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDC06F41B5A12F400C98425 /* Icon-Small.png in Resources */,
+				FCDC06EA1B5A12F400C98425 /* Icon-60@3x.png in Resources */,
+				FCDC06F21B5A12F400C98425 /* Icon-Small-50.png in Resources */,
+				FCDC06F01B5A12F400C98425 /* Icon-Small-40@2x.png in Resources */,
+				FCDC06F51B5A12F400C98425 /* Icon-Small@2x.png in Resources */,
+				FCDC06EF1B5A12F400C98425 /* Icon-Small-40.png in Resources */,
+				FC80EEF71B45A2BB00E31BB4 /* Main.storyboard in Resources */,
+				FCDC06EC1B5A12F400C98425 /* Icon-72@2x.png in Resources */,
+				FCDC06E91B5A12F400C98425 /* Icon-60@2x.png in Resources */,
+				FCDC06F81B5A12F400C98425 /* Icon@2x.png in Resources */,
+				FC80EEFC1B45A2BB00E31BB4 /* LaunchScreen.xib in Resources */,
+				FCDC06F71B5A12F400C98425 /* Icon.png in Resources */,
+				FCDC06E81B5A12F400C98425 /* Icon-60.png in Resources */,
+				FCDC06F11B5A12F400C98425 /* Icon-Small-40@3x.png in Resources */,
+				FCDC06F61B5A12F400C98425 /* Icon-Small@3x.png in Resources */,
+				FCDC06EB1B5A12F400C98425 /* Icon-72.png in Resources */,
+				FCDC06F91B5A12F400C98425 /* iTunesArtwork@2x.png in Resources */,
+				FC80EEF91B45A2BB00E31BB4 /* Images.xcassets in Resources */,
+				FCDC06F31B5A12F400C98425 /* Icon-Small-50@2x.png in Resources */,
+				FCDC06EE1B5A12F400C98425 /* Icon-76@2x.png in Resources */,
+				FCDC06ED1B5A12F400C98425 /* Icon-76.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC80EEFF1B45A2BB00E31BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC80EF131B45A30200E31BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDC07051B5A15B200C98425 /* 196x196.png in Resources */,
+				FC80EF201B45A30200E31BB4 /* Tip Calc for Watch WatchKit App.app in Resources */,
+				FC80EF1C1B45A30200E31BB4 /* Images.xcassets in Resources */,
+				FCDC07031B5A15B200C98425 /* 172x172.png in Resources */,
+				FCDC070B1B5A15B200C98425 /* 48x48.png in Resources */,
+				FC80EF3A1B486DC400E31BB4 /* FontAwesome.ttf in Resources */,
+				FCDC07071B5A15B200C98425 /* 29x29@2x.png in Resources */,
+				FCDC070D1B5A15B200C98425 /* 55x55.png in Resources */,
+				FCDC070F1B5A15B200C98425 /* 80x80.png in Resources */,
+				FCDC07091B5A15B200C98425 /* 29x29@3x.png in Resources */,
+				FCDC07111B5A15B200C98425 /* 88x88.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC80EF1D1B45A30200E31BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDC07061B5A15B200C98425 /* 196x196.png in Resources */,
+				FC80EF281B45A30200E31BB4 /* Interface.storyboard in Resources */,
+				FCDC07041B5A15B200C98425 /* 172x172.png in Resources */,
+				FCDC070C1B5A15B200C98425 /* 48x48.png in Resources */,
+				FCDC07141B5A165700C98425 /* Images.xcassets in Resources */,
+				FC80EF3B1B486DC400E31BB4 /* FontAwesome.ttf in Resources */,
+				FCDC07081B5A15B200C98425 /* 29x29@2x.png in Resources */,
+				FCDC070E1B5A15B200C98425 /* 55x55.png in Resources */,
+				FCDC07101B5A15B200C98425 /* 80x80.png in Resources */,
+				FCDC070A1B5A15B200C98425 /* 29x29@3x.png in Resources */,
+				FCDC07121B5A15B200C98425 /* 88x88.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC80EEE81B45A2BB00E31BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC80EEF41B45A2BB00E31BB4 /* ViewController.swift in Sources */,
+				FC80EEF21B45A2BB00E31BB4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC80EEFD1B45A2BB00E31BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC80EF081B45A2BB00E31BB4 /* Tip_Calc_for_WatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC80EF111B45A30200E31BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC5B35E1B49BD0600586540 /* PeopleInterfaceController.swift in Sources */,
+				FCC5B35A1B48F15E00586540 /* BillInterfaceController.swift in Sources */,
+				FC80EF1A1B45A30200E31BB4 /* InterfaceController.swift in Sources */,
+				FCC5B35C1B49B62B00586540 /* TipInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC80EF031B45A2BB00E31BB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC80EEEB1B45A2BB00E31BB4 /* Tip Calc for Watch */;
+			targetProxy = FC80EF021B45A2BB00E31BB4 /* PBXContainerItemProxy */;
+		};
+		FC80EF221B45A30200E31BB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC80EF1E1B45A30200E31BB4 /* Tip Calc for Watch WatchKit App */;
+			targetProxy = FC80EF211B45A30200E31BB4 /* PBXContainerItemProxy */;
+		};
+		FC80EF2C1B45A30200E31BB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC80EF141B45A30200E31BB4 /* Tip Calc for Watch WatchKit Extension */;
+			targetProxy = FC80EF2B1B45A30200E31BB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC80EEF51B45A2BB00E31BB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC80EEF61B45A2BB00E31BB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC80EEFA1B45A2BB00E31BB4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC80EEFB1B45A2BB00E31BB4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FC80EF261B45A30200E31BB4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC80EF271B45A30200E31BB4 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC80EF091B45A2BB00E31BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC80EF0A1B45A2BB00E31BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC80EF0C1B45A2BB00E31BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Tip Calc for Watch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6bf0b09f-4b3d-4508-9287-3e7c4c20d4d4";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FC80EF0D1B45A2BB00E31BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Tip Calc for Watch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6bf0b09f-4b3d-4508-9287-3e7c4c20d4d4";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FC80EF0F1B45A2BB00E31BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tip Calc for WatchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tip Calc for Watch.app/Tip Calc for Watch";
+			};
+			name = Debug;
+		};
+		FC80EF101B45A2BB00E31BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tip Calc for WatchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tip Calc for Watch.app/Tip Calc for Watch";
+			};
+			name = Release;
+		};
+		FC80EF2F1B45A30200E31BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Tip_Calc_for_Watch_WatchKit_Extension;
+				INFOPLIST_FILE = "Tip Calc for Watch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		FC80EF301B45A30200E31BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = Tip_Calc_for_Watch_WatchKit_Extension;
+				INFOPLIST_FILE = "Tip Calc for Watch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		FC80EF321B45A30200E31BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tip Calc for Watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FC80EF331B45A30200E31BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tip Calc for Watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC80EEE71B45A2BB00E31BB4 /* Build configuration list for PBXProject "Tip Calc for Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC80EF091B45A2BB00E31BB4 /* Debug */,
+				FC80EF0A1B45A2BB00E31BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC80EF0B1B45A2BB00E31BB4 /* Build configuration list for PBXNativeTarget "Tip Calc for Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC80EF0C1B45A2BB00E31BB4 /* Debug */,
+				FC80EF0D1B45A2BB00E31BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC80EF0E1B45A2BB00E31BB4 /* Build configuration list for PBXNativeTarget "Tip Calc for WatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC80EF0F1B45A2BB00E31BB4 /* Debug */,
+				FC80EF101B45A2BB00E31BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC80EF2E1B45A30200E31BB4 /* Build configuration list for PBXNativeTarget "Tip Calc for Watch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC80EF2F1B45A30200E31BB4 /* Debug */,
+				FC80EF301B45A30200E31BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC80EF311B45A30200E31BB4 /* Build configuration list for PBXNativeTarget "Tip Calc for Watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC80EF321B45A30200E31BB4 /* Debug */,
+				FC80EF331B45A30200E31BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC80EEE41B45A2BB00E31BB4 /* Project object */;
+}
